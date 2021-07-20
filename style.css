@@ -16,7 +16,7 @@ box-sizing: border-box;
     left: 200px;
     height: 30px;
     width: 30px;
-    background-color: rgb(225, 235, 233);
+    background-color: rgb(16, 46, 40);
     border-radius: 50%;
     position: absolute;
     box-shadow: 0px 0px 10px 2px rgb(129, 176, 230);
@@ -45,4 +45,24 @@ letter-spacing: 1px;
 color: black;
 box-shadow: 0px 1px 8px 2px rgb(86, 86, 100);
 
+}
+
+@media (max-width:991px ) {
+    
+   .main
+   {
+       background-color: black;
+       width: 800vh;
+       height: 1000vh;
+   }
+   .ball
+   {
+       background-color: white;
+       width: 50px;
+       height: 50px;
+   }
+   .btn
+   {
+       display: none;
+   }
 }
