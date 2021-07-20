@@ -1,0 +1,48 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.main
+{
+    height: 100vh;
+  background-color: #3e1146;
+  
+}
+.ball
+{
+    top: 300px;
+    left: 200px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(225, 235, 233);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 10px 2px rgb(129, 176, 230);
+}
+.btn
+{
+    position: absolute;
+    top: 90%;
+    left: 7%;
+    padding: 10px 14px;
+    font-weight: 100;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.8s;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 12px 1px rgb(110, 109, 107);
+}
+.btn:hover
+{
+background-color: rgb(218, 231, 231);
+letter-spacing: 1px;
+color: black;
+box-shadow: 0px 1px 8px 2px rgb(86, 86, 100);
+
+}
